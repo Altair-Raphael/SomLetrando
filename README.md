@@ -23,9 +23,12 @@ Projeto desenvolvido para a disciplina **PCS3635 - Laboratório de Projeto de Si
 ## Funcionalidades Principais
 
 **Painel Tangível:** Substituição do teclado por botões Arcade físicos e texturizados, facilitando o uso por crianças com desafios de motricidade.
+
 **Lógica Anti-Estereotipias (Debouncing):** O sistema em hardware controla o tempo entre cliques e exige um botão de "confirmação", evitando que toques múltiplos ou tremores registrem letras repetidas acidentalmente.
+
 **Aleatoriedade de Desafios:** As palavras e a posição dos botões são geradas de forma aleatória pelo sistema, incentivando o aprendizado fonológico real no lugar da mera memorização de padrões.
 **Modos de Dificuldade:** Permite adequar a progressão do jogo às competências da criança.
+
 **Integração Audiovisual:** Comunicação via UART com um computador externo que emite o som da palavra escolhida.
 
 ## Tecnologias e Hardware

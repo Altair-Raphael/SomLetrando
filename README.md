@@ -34,7 +34,10 @@ Projeto desenvolvido para a disciplina **PCS3635 - Laboratório de Projeto de Si
 ## Tecnologias e Hardware
 
 **Placa:** Intel FPGA DE0-CV 
+
 **Linguagem de Descrição de Hardware (HDL):** Verilog 
+
 **Software IDE:** Intel Quartus Prime & ModelSim 
+
 **Componentes Externos:** Botões Arcade (PBS-29), LEDs, Chaves Gangorra 
 

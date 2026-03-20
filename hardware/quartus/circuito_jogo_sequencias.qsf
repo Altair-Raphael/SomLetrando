@@ -1,0 +1,131 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2020  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and any partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details, at
+# https://fpgasoftware.intel.com/eula.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+# Date created = 21:03:53  February 06, 2026
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		circuito_jogo_sequencias_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone V"
+set_global_assignment -name DEVICE 5CEBA4F23C7
+set_global_assignment -name TOP_LEVEL_ENTITY circuito_jogo_sequencias
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 20.1.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "21:03:53  FEBRUARY 06, 2026"
+set_global_assignment -name LAST_QUARTUS_VERSION "20.1.1 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name DEVICE_FILTER_PIN_COUNT 484
+set_global_assignment -name DEVICE_FILTER_SPEED_GRADE 7
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 256
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_location_assignment PIN_R22 -to clock
+set_location_assignment PIN_T22 -to reset
+set_location_assignment PIN_P19 -to modo
+set_location_assignment PIN_N19 -to jogar
+set_location_assignment PIN_P17 -to botoes[0]
+set_location_assignment PIN_M18 -to botoes[1]
+set_location_assignment PIN_L17 -to botoes[2]
+set_location_assignment PIN_K17 -to botoes[3]
+set_location_assignment PIN_W2 -to timeout
+set_location_assignment PIN_Y3 -to pronto
+set_location_assignment PIN_AA2 -to perdeu
+set_location_assignment PIN_AA1 -to ganhou
+set_location_assignment PIN_P18 -to leds[0]
+set_location_assignment PIN_R17 -to leds[1]
+set_location_assignment PIN_T20 -to leds[2]
+set_location_assignment PIN_T18 -to leds[3]
+set_location_assignment PIN_U2 -to db_tem_jogada
+set_location_assignment PIN_AA20 -to db_memoria[0]
+set_location_assignment PIN_AB20 -to db_memoria[1]
+set_location_assignment PIN_AA19 -to db_memoria[2]
+set_location_assignment PIN_AA18 -to db_memoria[3]
+set_location_assignment PIN_AB18 -to db_memoria[4]
+set_location_assignment PIN_AA17 -to db_memoria[5]
+set_location_assignment PIN_U22 -to db_memoria[6]
+set_location_assignment PIN_Y16 -to db_limite[0]
+set_location_assignment PIN_W16 -to db_limite[1]
+set_location_assignment PIN_Y17 -to db_limite[2]
+set_location_assignment PIN_V16 -to db_limite[3]
+set_location_assignment PIN_U17 -to db_limite[4]
+set_location_assignment PIN_V18 -to db_limite[5]
+set_location_assignment PIN_V19 -to db_limite[6]
+set_location_assignment PIN_N9 -to db_estado[0]
+set_location_assignment PIN_M8 -to db_estado[1]
+set_location_assignment PIN_T14 -to db_estado[2]
+set_location_assignment PIN_P14 -to db_estado[3]
+set_location_assignment PIN_C1 -to db_estado[4]
+set_location_assignment PIN_C2 -to db_estado[5]
+set_location_assignment PIN_W19 -to db_estado[6]
+set_location_assignment PIN_U21 -to db_contagem[0]
+set_location_assignment PIN_V21 -to db_contagem[1]
+set_location_assignment PIN_W22 -to db_contagem[2]
+set_location_assignment PIN_W21 -to db_contagem[3]
+set_location_assignment PIN_Y22 -to db_contagem[4]
+set_location_assignment PIN_Y21 -to db_contagem[5]
+set_location_assignment PIN_AA22 -to db_contagem[6]
+set_location_assignment PIN_N1 -to db_clock
+set_location_assignment PIN_U1 -to db_iniciar
+set_location_assignment PIN_L2 -to db_igual
+set_location_assignment PIN_L1 -to db_enderecoIgualLimite
+set_location_assignment PIN_N2 -to db_modo
+set_location_assignment PIN_Y19 -to db_jogada[0]
+set_location_assignment PIN_AB17 -to db_jogada[1]
+set_location_assignment PIN_AA10 -to db_jogada[2]
+set_location_assignment PIN_Y14 -to db_jogada[3]
+set_location_assignment PIN_V14 -to db_jogada[4]
+set_location_assignment PIN_AB22 -to db_jogada[5]
+set_location_assignment PIN_AB21 -to db_jogada[6]
+set_location_assignment PIN_M6 -to confirmar
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name VERILOG_FILE "../arquivos verilog/mux_4_n.v"
+set_global_assignment -name VERILOG_FILE "../arquivos verilog/sync_rom_16x4_3.v"
+set_global_assignment -name VERILOG_FILE "../arquivos verilog/sync_rom_16x4_2.v"
+set_global_assignment -name VERILOG_FILE "../arquivos verilog/sync_rom_16x4_1.v"
+set_global_assignment -name VERILOG_FILE "../arquivos verilog/sync_rom_16x4.v"
+set_global_assignment -name VERILOG_FILE "../arquivos verilog/registrador_4.v"
+set_global_assignment -name VERILOG_FILE "../arquivos verilog/registrador_1.v"
+set_global_assignment -name VERILOG_FILE "../arquivos verilog/mux.v"
+set_global_assignment -name VERILOG_FILE "../arquivos verilog/hexa7seg.v"
+set_global_assignment -name VERILOG_FILE "../arquivos verilog/exp5_unidade_controle.v"
+set_global_assignment -name VERILOG_FILE "../arquivos verilog/exp5_fluxo_dados.v"
+set_global_assignment -name VERILOG_FILE "../arquivos verilog/edge_detector.v"
+set_global_assignment -name VERILOG_FILE "../arquivos verilog/contador_m.v"
+set_global_assignment -name VERILOG_FILE "../arquivos verilog/contador_163.v"
+set_global_assignment -name VERILOG_FILE "../arquivos verilog/comparador_85.v"
+set_global_assignment -name VERILOG_FILE "../arquivos verilog/circuito_jogo_sequencias.v"

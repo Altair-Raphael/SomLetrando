@@ -6,7 +6,7 @@ Projeto desenvolvido para a disciplina **PCS3635 - Laboratório de Projeto de Si
 
 ---
 
-#Colaboradores
+## Colaboradores
 
   Altair Raphael Alcazar Perez
   
@@ -14,7 +14,7 @@ Projeto desenvolvido para a disciplina **PCS3635 - Laboratório de Projeto de Si
   
   Giovana Une Oyakawa
 
-## 📖 Sobre o Projeto
+## Sobre o Projeto
 
   O aprendizado e a alfabetização de crianças com TEA demandam ferramentas que ofereçam previsibilidade, rotina e estímulos sensoriais adequados. O **SomLetrando** é um jogo interativo projetado para ensinar e praticar a associação de sons com letras para a formação de palavras de maneira lúdica. 
 
@@ -28,7 +28,7 @@ Projeto desenvolvido para a disciplina **PCS3635 - Laboratório de Projeto de Si
 **Modos de Dificuldade:** Permite adequar a progressão do jogo às competências da criança.
 **Integração Audiovisual:** Comunicação via UART com um computador externo que emite o som da palavra escolhida.
 
-## 🛠️ Tecnologias e Hardware
+## Tecnologias e Hardware
 
 **Placa:** Intel FPGA DE0-CV 
 **Linguagem de Descrição de Hardware (HDL):** Verilog 

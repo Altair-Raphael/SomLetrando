@@ -13,6 +13,8 @@ hardware/quartus/simulation/
 *.jdi
 *.sld
 *.bak
+*.qpf
+*.qsf
 
 # Ignorar pastas e arquivos de compilação do ModelSim
 hardware/testbenches/work/

@@ -1,8 +1,8 @@
 # Ignorar pastas de compilação e banco de dados do Quartus
-/hardware/quartus/db/
-/hardware/quartus/incremental_db/
-/hardware/quartus/output_files/
-/hardware/quartus/simulation/
+hardware/quartus/db/
+hardware/quartus/incremental_db/
+hardware/quartus/output_files/
+hardware/quartus/simulation/
 
 # Ignorar relatórios e arquivos temporários do Quartus
 *.rpt
@@ -15,7 +15,7 @@
 *.bak
 
 # Ignorar pastas e arquivos de compilação do ModelSim
-/hardware/testbenches/work/
+hardware/testbenches/work/
 *.wlf
 transcript
 modelsim.ini

@@ -19,3 +19,7 @@ hardware/testbenches/work/
 *.wlf
 transcript
 modelsim.ini
+
+# Ignorar tentativa de upload de videos 
+*.mp4
+*.mov

@@ -1,9 +1,9 @@
 /*
  * ------------------------------------------------------------------
  *  Arquivo   : exp5_unidade_controle.v
- *  Projeto   : Experiencia 5 - Projeto de um Jogo de Sequências de Jogadas
+ *  Projeto   : SomLetrando
  * ------------------------------------------------------------------
- *  Descricao : Unidade de controle projetada para a Atividade 5 baseada na UC da atividade 4 com adi
+ *  Descricao : Uso da UC da Experiência 5 para o projeto
  * ------------------------------------------------------------------
  *  Revisoes  :
  *      Data        Versao  Autor             Descricao

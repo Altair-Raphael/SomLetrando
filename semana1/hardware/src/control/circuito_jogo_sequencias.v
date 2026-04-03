@@ -1,3 +1,16 @@
+/*
+ * ------------------------------------------------------------------
+ *  Arquivo   : circuito_jogo_sequencias.v
+ *  Projeto   : SomLetrando
+ * ------------------------------------------------------------------
+ *  Descricao : Adaptação do top-level da Experiência 5 para o projeto
+ * ------------------------------------------------------------------
+ *  Revisoes  :
+ *      Data        Versao  Autor             Descricao
+ *      05/02/2026  1.0     T2BB8 (labdig)    versao inicial
+ * ------------------------------------------------------------------
+ */
+
 module circuito_jogo_sequencias (
     input        clock,
     input        reset,

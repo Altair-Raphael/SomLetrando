@@ -19,7 +19,15 @@ Projeto desenvolvido para a disciplina **PCS3635 - Laboratório de Projeto de Si
   O aprendizado e a alfabetização de crianças com TEA demandam ferramentas que ofereçam previsibilidade, rotina e estímulos sensoriais adequados. O **SomLetrando** é um jogo interativo projetado para ensinar e praticar a associação de sons com letras para a formação de palavras de maneira lúdica. 
 
   Para mitigar as barreiras de aprendizagem motoras e sensoriais (sobrecarga de teclados convencionais), o projeto utiliza um painel tangível com botões de fliperama (Arcade) de texturas diversas. Todo o processamento lógico é feito de forma nativa em hardware programável, garantindo respostas em tempo real.
-  
+
+## Desenvolvimento e Documentação do Projeto
+
+  Todos os testes realizados e documentados nos relatórios estão armazenados nesta [playlist](https://www.youtube.com/playlist?list=PLKrKhnqXRef2n4QzVBKmIzrlEw8Xh0Fef) do YouTube devido ao tamanho dos vídeos (incompatíveis com o suporte do GitHub).
+
+  Além disso, o repositório foi organizado através de *branches* cumulativas desenvolvidas a cada semana do projeto e todas foram posteriormente mergeadas nessa main. Além disso, o diretório "Versão Final" conta com a documentação finalizada apresentada na Feira de Projetos da disciplina
+
+  Por fim, o repositório também conta com um simples **Manual de Usuário** para orientar os primeiros passos de um Iniciante nesse jogo multissensorial e **Slides de Apresentação** utilizados no *pitch* da disciplina, mas que permitem uma breve explicação do projeto para aqueles que quiserem explorar o projeto por conta própria.
+
 ## Funcionalidades Principais
 
 **Painel Tangível:** Substituição do teclado por botões Arcade físicos e texturizados, facilitando o uso por crianças com desafios de motricidade.

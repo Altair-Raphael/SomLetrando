@@ -1,0 +1,69 @@
+{
+  "interface": {
+    "titulo": "SomLetrando - Jogo de Consciência Fonológica",
+    "largura_janela": 1200,
+    "altura_janela": 600,
+    "mostrar_status_bar": true,
+    "tema": "claro"
+  },
+  
+  "cores": {
+    "fundo_principal": "#f0f0f0",
+    "fundo_display": "#ffffff",
+    "letra_nao_selecionada": "#000000",
+    "letra_atual": "#FFD700",
+    "letra_acertada": "#00AA00",
+    "letra_erro": "#CC0000",
+    "fundo_vitoria": "#90EE90",
+    "texto_vitoria": "#006600",
+    "fundo_derrota": "#FFB6B6",
+    "texto_derrota": "#660000"
+  },
+  
+  "fontes": {
+    "tamanho_palavra_letras": 48,
+    "tamanho_status": 14,
+    "tamanho_mensagem_grande": 24,
+    "tamanho_botoes": 12,
+    "tamanho_label_porta": 10,
+    "bold_padrao": true
+  },
+  
+  "espacamento": {
+    "margem_principal": 20,
+    "espacamento_layout": 20,
+    "espacamento_letras": 10,
+    "padding_letras": 10
+  },
+  
+  "serial": {
+    "porta_padrao": "COM5",
+    "baudrate_padrao": 9600,
+    "bytesize": 7,
+    "stopbits": 2,
+    "timeout": 1.0
+  },
+  
+  "comportamento": {
+    "tempo_mensagem_acerto_ms": 1000,
+    "auto_detectar_porta": true,
+    "confirmar_reset": false,
+    "som_acerto_ativo": false,
+    "som_vitoria_ativo": false,
+    "som_derrota_ativo": false
+  },
+  
+  "palavras": {
+    "0": "LAB",
+    "1": "SIM",
+    "2": "LAR",
+    "3": "ASA"
+  },
+  
+  "opcoes_acessibilidade": {
+    "modo_alto_contraste": false,
+    "aumentar_fonte": 0.0,
+    "velocidade_animacoes": 1.0,
+    "modo_dislexico_friendly": false
+  }
+}

@@ -1,0 +1,5 @@
+pyserial>=3.5
+PyQt5>=5.15.0
+pyttsx3
+gtts>=2.5.0
+pygame>=2.0.0
